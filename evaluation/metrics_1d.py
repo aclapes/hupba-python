@@ -235,7 +235,7 @@ def f1(s1, s2, params = None):
         TP = 0
         FN = 0
         FP = 0
-        print pred_activations
+        print(pred_activations)
         for p in pred_activations:
             tmp_pred = np.zeros(pred.shape[0])
             tmp_pred[p[0]:p[1]] = 1
