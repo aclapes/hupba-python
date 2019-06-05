@@ -20,6 +20,10 @@ pip3 install -r evaluation/requirements.txt
 
 ## List of available tools
 
+`calibration/`
+
+	depth.py : calibration of other modalities to depth when rotation-translation between the cameras is known.
+
 `evaluation/`
 
 	metrics_1d.py : overlap and f1-score on 1-d time series.
